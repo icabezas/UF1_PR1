@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thor.uf1_pr1.MainActivity">
+
+    <Button
+        android:id="@+id/jugar"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/ranquing"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:text="Jugar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/ranquing"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/ajustaments"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp"
+        android:text="Ranquing"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/ajustaments"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Ajustaments"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/quantA"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ajustaments"
+        android:layout_marginTop="44dp"
+        android:text="Quant a"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+</RelativeLayout>
