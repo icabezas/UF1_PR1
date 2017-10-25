@@ -63,7 +63,6 @@ public class Ajustaments extends AppCompatActivity {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor ed = prefs.edit();
         ed.putString("name", setNom.getText().toString());
-        ed.putEx("bitmap", bitmap.ge);
         ed.commit();
         super.onPause();
     }
